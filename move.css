@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #444;
+}
+
+.container {
+    width: 980px;
+    margin: 120px auto;
+}
+
+.header {
+    margin-bottom: 20px;
+    /* text-align: left; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header b {
+    color: red;
+}
+
+
+.header p {
+    font-size: 10px;
+    /* margin-bottom: 16px; */
+    color: #333;
+    margin-left: 780px;   
+    padding-top: 10px; 
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.list li {
+    width: 184px;
+    /* background-color: #444; */
+}
+
+.list li .photo {
+    width: 184px;
+    height: 262px;
+}
+
+.list li .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.list li .user {
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.list li .user .name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 6px;
+    white-space: nowrap;
+}
+
+.list li .time {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.list li .time img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.list li .time .day{
+    position: relative;
+    color: red;
+    margin-left: 2px;
+
+}
